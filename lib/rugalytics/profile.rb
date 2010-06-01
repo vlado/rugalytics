@@ -102,7 +102,7 @@ module Rugalytics
     end
 
     def a_month_ago
-      Time.now.utc.last_month
+      Time.now.utc.prev_month
     end
 
     def today
